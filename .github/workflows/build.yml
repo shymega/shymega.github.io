@@ -1,0 +1,25 @@
+name: Blog website builder
+
+on:
+  push:
+    branches: [main]
+    paths: ["./content", "./config.toml", "./themes"]
+  workflow_dispatch:
+    
+jobs:
+  build:
+    concurrency: blog-build-${{ github.ref }}
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        submodules: true
+    - name: Build blog
+      uses: klakegg/actions-hugo@1.0.0
+      with:
+        image: ext-alpine
+        env: production
+    - name: Deploy to GitHub
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: public
