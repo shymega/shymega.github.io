@@ -3,7 +3,6 @@ name: Blog website builder
 on:
   push:
     branches: [main]
-    paths: ["./content", "./config.toml", "./themes"]
   workflow_dispatch:
     
 jobs:
