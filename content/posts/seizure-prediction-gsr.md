@@ -1,6 +1,6 @@
 ---
 title: "Seizure prediction - GSR sensors"
-date: 2019-10-09T00:00:00Z
+date: "2019-10-09"
 ---
 
 Alright, so I've been working on my wrist-worn seizure detection design some

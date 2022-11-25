@@ -1,6 +1,7 @@
 ---
 title: "About"
 date: "2018-11-05"
+lastmod: 2020-11-25
 ---
 
 Hi, I'm Dom. I'm a 20-something hobbyist programmer, advocate of open

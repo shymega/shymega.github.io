@@ -1,6 +1,6 @@
 ---
 title: "Seizure prediction: v1"
-date: 2019-08-08T00:00:00Z
+date: "2019-08-08"
 ---
 
 This post marks the beginning of a research project into seizure prediction.

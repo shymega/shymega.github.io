@@ -1,6 +1,6 @@
 ---
 title: "Hello World!"
-date: 2018-11-05T12:59:46Z
+date: "2018-11-05"
 ---
 
 Welcome to my blog.
