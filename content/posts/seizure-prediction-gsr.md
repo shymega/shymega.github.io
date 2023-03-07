@@ -1,6 +1,7 @@
 ---
 title: "Seizure prediction - GSR sensors"
 date: "2019-10-09"
+draft: true
 ---
 
 Alright, so I've been working on my wrist-worn seizure detection design some
