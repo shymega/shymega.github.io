@@ -1,6 +1,6 @@
 baseurl = "https://blog.shymega.org.uk/"
 languageCode = "en-gb"
-title = "when is_blog(self())"
+title = "fn blog<R: Read>(reader: R);"
 theme = "temple"
 copyright = "Copyright © (CC-BY-SA 4.0) Dom Rodriguez 2018-{year}"
 
