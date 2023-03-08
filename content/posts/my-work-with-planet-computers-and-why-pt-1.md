@@ -3,6 +3,8 @@ title: "My work with Planet Computers, and why: Pt 1"
 date: "2023-03-07"
 ---
 
+<h2>DISCLAIMER: As I have now signed an NDA with Planet Computers, this post is of my own views, and NOT those of Planet Computers. I am restricted in information I can release, so please, no emails or DMs asking for 'moar info'</h2>
+
 I thought, in light of the new "Planet Embedded" XR-series that has been recently launched, it might be a good idea for me to explain my affiliation with the company behind it, the Gemini PDA, Cosmo Communicator, and their latest phone (but sadly not the latest SoC; this is a blessing in a way, more in future posts), Astro Slide 5G Transformer.
 
 To begin this post, I think it necessary to explain where my work with Planet started. It started shortly after I received my Cosmo Communicator via IndieGoGo (one of my first crowdfunding campaigns). I was very curious about CoDi, and there wasn't much information surrounding the system driving it. I had already observed many deficiencies with CoDi, and had worked it out it was over UART. But UART is slow, and this, I felt, was the reason behind the slow - what turned out to be XMODEM - update process on the bootloader.
