@@ -1,10 +1,10 @@
 ---
-title: "Experiments in Cloud Gaming: 1/?"
+title: "Experiments in Cloud Gaming: Pt 1"
 date: "2020-11-25"
 draft: true
 ---
 
-(Initially posted [here][linkedin] on my LinkedIn [profile][profile], but I've
+(Initially posted [here][linkedin_post] on my LinkedIn [profile][linkedin_profile], but I've
 decided to move it to my blog, and tidy it up a bit.)
 
 The idea is to use the cloud to play games (yes, I know - but this is a fun
@@ -27,5 +27,5 @@ a snapshot, which EventBridge then calls yet another Lambda function to create
 an AMI with the snapshot, and a Launch Template, and we then have a cloud gaming
 VM, ready to be deployed.
 
-[linkedin]: https://www.linkedin.com/posts/domrodriguezuk_cloud-aws-ec2-activity-6994059799969550336-ADI1
-[profile]: https://www.linkedin.com/in/domrodriguezuk/
+[linkedin_post]: https://www.linkedin.com/posts/domrodriguezuk_cloud-aws-ec2-activity-6994059799969550336-ADI1
+[linkedin_profile]: https://www.linkedin.com/in/domrodriguezuk/
