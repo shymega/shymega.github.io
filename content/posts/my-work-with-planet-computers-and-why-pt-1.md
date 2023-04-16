@@ -5,6 +5,7 @@ date: "2023-03-07"
 
 ## DISCLAIMER: As I have now signed an NDA with Planet Computers, this post is of my own views, and NOT those of Planet Computers. I am restricted in the information I can release, so please, no emails or DMs asking for more info.
 ## Planet Computers are not representative of my views, and should not be contacted for comment.
+## As I am on a job hunt, at the time of this post, I should make clear that I am not currently employed, and I'm open to remote opportunities.
 
 I thought, in light of the new "Planet Embedded" XR-series that has been recently launched, it might be a good idea for me to explain my affiliation with the company behind it, the Gemini PDA, Cosmo Communicator, and their latest phone (but sadly not the latest SoC; this is a blessing in a way, more in future posts), Astro Slide 5G Transformer.
 
