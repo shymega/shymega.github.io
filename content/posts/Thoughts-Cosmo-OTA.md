@@ -86,7 +86,7 @@ heard anything yet.
 OK, so rooting is a tricky one. The current rooted Android Boot Image
 (kernel+ramdisk) is for V25. You can achieve the same for V23, by using my
 [scripts][] to root the `boot.img` for V23, and then flash these via the
-recovery scripts. I might put together a GitHub repo for easier accessibility.
+recovery scripts. I have created a GitHub repository where you can download a pre-built image for a untrusted boot slot [here][v23_rooted]
 
 The [current][rooted_cosmo_v25] firmware can be used as normal, **IF**, and
 this is a BIG if, you are on firmware V25. If you're not, or on older firmware,
@@ -103,4 +103,5 @@ It's best to hang tight.
 [ninji_2]: https://wuffs.org/blog/digitime-tech-fota-backdoors
 [planet_ota]: https://github.com/shymega/planet_ota.git
 [scripts]: https://github.com/PC-LineageOS-Ports/magisk-boot-patch-ci-tool
+[v23_rooted]: https://github.com/shymega/cosmo-v23-rooted-android
 [rooted_cosmo_v25]: https://support.planetcom.co.uk/index.php/Rooted_Android_For_Cosmo
