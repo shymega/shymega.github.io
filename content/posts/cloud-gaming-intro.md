@@ -1,7 +1,6 @@
 ---
 title: "Experiments in Cloud Gaming: Pt 1"
 date: "2020-11-25"
-draft: true
 ---
 
 (Initially posted [here][linkedin_post] on my LinkedIn [profile][linkedin_profile], but I've
