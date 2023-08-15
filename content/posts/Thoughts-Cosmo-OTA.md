@@ -60,16 +60,16 @@ downloading. The SystemFOTA app supports installing a 'UpdatePackage.zip' file,
 located in the root internal storage of the phone. This would work as a
 solution for now.
 
-I know that Planet did write their own OTA updater for Astro. However, I don't
-like it. It looks hacky, and the ODM's FOTA updater is still active - remember
-the posts about 'deejay-dota'? It's actually the updater. I have it on my
-phone, but not enabled as software. Whilst I have the sources for the app, I
-can't tell much about it. I don't think it's sinister though, just badly
-written.
+I know that Planet did write their own OTA updater for Astro. However, I
+wouldn't say I'm terribly fond of it. It looks hacky, rushed together, and the
+ODM's FOTA updater is still active - remember the posts about 'deejay-dota'?
+It's actually the updater. I have it on my phone, but not enabled as software.
+Whilst I have the sources for the app, I can't tell much about it. I don't
+think it's sinister though, just badly written, and documented.
 
 I did work, on and off, on an 'all-in-one' OTA service for Planet. I call it
 '[planet_ota][]', and it uses cloud tooling to scale the server, serve updates
-from DB, and store metadata in a hosted PostgreSQL database. It's not fully
+from S3, and store metadata in a hosted PostgreSQL database. It's not fully
 complete yet, but the idea is for it to serve as a way for the XR-series
 machines, Gemini, Cosmo, and Astro (and future projects) to update themselves,
 but without straining the current server for OTA.
