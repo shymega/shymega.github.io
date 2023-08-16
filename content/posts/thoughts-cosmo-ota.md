@@ -34,8 +34,6 @@ First of all, it's necessary to define key terms regarding the Cosmo:
     still present, and software like 'SafetyNet' and 'Play Integrity' are
     perfectly capable of detecting these traces.
 
-    More on this in the next section.
-
 ## So, what's going on with V25?
 
 I'm not employed by Planet Computers, but as an embedded developer, my educated
