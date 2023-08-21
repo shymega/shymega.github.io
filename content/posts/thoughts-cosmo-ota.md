@@ -47,8 +47,7 @@ Cosmo OTA updater ([here][ninji_1] and [here][ninji_2]).
 Whilst these posts are concerning, it's not necessarily unusual. In any case,
 my conclusions draw upon the responsible disclosure that Ninji made to Planet
 Computers, and combined with the fact that the ODM contract has been terminated
-(no, I can't tell you which ODM. My NDA restricts me from giving that
-information. Please don't ask me.), I am concluding that these combining
+(no, I don't know which ODM.), I am concluding that these combining
 factors have resulted in the SystemFOTA updater being taken down.
 
 ## Next steps
@@ -60,8 +59,7 @@ located in the root internal storage of the phone. This would work as a
 solution for now.
 
 I know that Planet did write their own OTA updater for Astro. However, I
-wouldn't say I'm terribly fond of it. It looks hacky, rushed together, and the
-ODM's FOTA updater is still active - remember the posts about 'deejay-dota'?
+wouldn't say I'm terribly fond of it. The ODM's FOTA updater is still active - remember the posts about 'deejay-dota'?
 It's actually the updater. I have it on my phone, but not enabled as software.
 Whilst I have the sources for the app, I can't tell much about it. I don't
 think it's sinister though, just badly written, and documented.
