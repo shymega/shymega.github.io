@@ -2,7 +2,6 @@
 ---
 title: "My thoughts on Cosmo Communicator OTA update - the current situation"
 date: "2023-08-15"
-draft: true
 ---
 
 #### DISCLAIMER: As I have now signed an NDA with Planet Computers, this post is of my own views, and NOT those of Planet Computers. I am restricted in the information I can release, so please, no emails or DMs asking for more info.
