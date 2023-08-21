@@ -82,7 +82,8 @@ heard anything yet.
 OK, so rooting is a tricky one. The current rooted Android Boot Image
 (kernel+ramdisk) is for V25. You can achieve the same for V23, by using my
 [scripts][] to root the `boot.img` for V23, and then flash these via the
-recovery scripts. I have created a GitHub repository where you can download a pre-built image for a untrusted boot slot [here][v23_rooted]
+recovery scripts. I have created a GitHub repository where you can download a
+pre-built image for a untrusted boot slot [here][v23_rooted]
 
 The [current][rooted_cosmo_v25] firmware can be used as normal, **IF**, and
 this is a BIG if, you are on firmware V25. If you're not, or on older firmware,
