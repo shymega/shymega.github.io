@@ -19,7 +19,7 @@ jobs:
         image: ext-alpine
         env: production
     - name: Create supporting file (.nojekyll)
-      run: touch ./public/.nojekyll
+      run: sudo touch ./public/.nojekyll
     - name: Deploy to GitHub
       uses: JamesIves/github-pages-deploy-action@v4
       with:
