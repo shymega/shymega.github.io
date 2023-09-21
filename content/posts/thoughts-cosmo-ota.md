@@ -2,10 +2,9 @@
 ---
 title: "My thoughts on Cosmo Communicator OTA update - the current situation"
 date: "2023-08-15"
-draft: true
 ---
 
-## DISCLAIMER: As I have now signed an NDA with Planet Computers, this post is of my own views, and NOT those of Planet Computers. They should not be contacted for comment.
+## DISCLAIMER: As I have signed an NDA with Planet Computers, this post is of my own views, and NOT those of Planet Computers. They should not be contacted for comment.
 ## I am restricted in the information I can release, so please, no emails or DMs asking for information.
 
 Just a little blog post to address recent posts I've seen on
@@ -47,8 +46,18 @@ Cosmo OTA updater ([here][ninji_1] and [here][ninji_2]).
 Whilst these posts are concerning, it's not necessarily unusual. In any case,
 my conclusions draw upon the responsible disclosure that Ninji made to Planet
 Computers, and combined with the fact that the ODM contract has been terminated
-(no, I don't know which ODM.), I am concluding that these combining
-factors have resulted in the SystemFOTA updater being taken down.
+(no, I don't know which ODM), that those factors have contributed towards the
+ODM taking down the OTA service for Cosmo.
+
+However, seeing as it didn't happen immediately, maybe it's related to the
+contract being terminated (as mentioned in the Astro Slide update on IGG). Who
+knows. Speculating probably isn't very helpful for any of us right now.
+
+When I did some reverse engineering of the new ODM OTA updater on the Astro, I
+noted there's some sort of.. compression, encryption, maybe, in the payloads.
+
+Couldn't tell *what* was being sent, but I am a firm believer that OTA software
+should send as minimal data as possible.
 
 ## Next steps
 
@@ -58,13 +67,22 @@ downloading. The SystemFOTA app supports installing a 'UpdatePackage.zip' file,
 located in the root internal storage of the phone. This would work as a
 solution for now.
 
-I know that Planet did write their own OTA updater for Astro. However, I
-wouldn't say I'm terribly fond of it. The ODM's FOTA updater is still active - remember the posts about 'deejay-dota'?
-It's actually the updater. I have it on my phone, but not enabled as software.
-Whilst I have the sources for the app, I can't tell much about it. I don't
-think it's sinister though, just badly written, and documented.
+There's not much the community can do to get this going. Of course, if any
+community members extracted the 'UpdatePackage.zip' from storage for the V25
+firmware, then that could work. But I doubt anyone made a backup,
+unfortunately.
 
-I did work, on and off, on an 'all-in-one' OTA service for Planet. I call it
+### Side note: More OTA thoughts:
+
+I know that Planet did write their own OTA updater for Astro. However, I
+wouldn't say I'm terribly fond of it. The ODM's FOTA updater is still active -
+remember the posts about 'deejay-dota'? It's actually the updater. I have it on
+my phone, but not enabled as software.
+
+I can't disclose much about it. I don't think it's sinister though, just badly
+written, and documented.
+
+I am currently working on a replacement AIO OTA platform for Planet. I call it
 '[planet_ota][]', and it uses cloud tooling to scale the server, serve updates
 from S3, and store metadata in a hosted PostgreSQL database. It's not fully
 complete yet, but the idea is for it to serve as a way for the XR-series

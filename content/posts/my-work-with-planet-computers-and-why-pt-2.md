@@ -4,7 +4,7 @@ date: "2023-03-13"
 draft: true
 ---
 
-## DISCLAIMER: As I have now signed an NDA with Planet Computers, this post is of my own views, and NOT those of Planet Computers. They should not be contacted for comment.
+## DISCLAIMER: As I have signed an NDA with Planet Computers, this post is of my own views, and NOT those of Planet Computers. They should not be contacted for comment.
 ## I am restricted in the information I can release, so please, no emails or DMs asking for information.
 
 So, to continue from my [last post][last_post], I was talking about CoDi.
@@ -13,8 +13,8 @@ I haven't made much progress with CoDi, because I need to be able to replicate
 the STM32 locally. I don't have any STM32L4R9AIIX boards, with external
 flash/RAM, and a display, so I'm kinda stuck in what I can achieve.
 
-The open-source CoDi firmware started off as `CoDirs`, - CoDi(rust/rs), and as a
-workspace crate. I did consider using something like [Drone][drone] or [Tock
+The open-source CoDi firmware started off as `CoDirs`, - CoDi(rust/rs), and as
+a workspace crate. I did consider using something like [Drone][drone] or [Tock
 OS][tock], and felt that because of the niche status of the STM32 inside the
 Cosmo, it would be a rather wasted effort to add support for such a specific
 configuration.
