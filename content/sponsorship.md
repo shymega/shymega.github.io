@@ -1,5 +1,0 @@
----
-title: "Sponsorship"
----
-
-TODO.
