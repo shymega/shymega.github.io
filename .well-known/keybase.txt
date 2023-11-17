@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/shymega
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://blog.shymega.org.uk
+  * I am shymega (https://keybase.io/shymega) on keybase.
+  * I have a public key with fingerprint EB0D 45E6 D0DC 1BA1 A2B5  FC24 72DC F123 1E54 BD43
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01015c4abb12d4e142cb587f83a9817143691f6c0fa756f10ab855aadeea94943da70a",
+      "fingerprint": "eb0d45e6d0dc1ba1a2b5fc2472dcf1231e54bd43",
+      "host": "keybase.io",
+      "key_id": "72dcf1231e54bd43",
+      "kid": "01015c4abb12d4e142cb587f83a9817143691f6c0fa756f10ab855aadeea94943da70a",
+      "uid": "1ee791bf9e431eaddc9016cc76902119",
+      "username": "shymega"
+    },
+    "service": {
+      "hostname": "blog.shymega.org.uk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1694546476,
+  "expire_in": 157680000,
+  "prev": "8ba1799b690f7ed806ecd415e1e105d6ad6768ea2df29682475b2bb801ea7c45",
+  "seqno": 83,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUm1MU1cYLhVmx0YYZfADQglXGKilu6e9n12QoRMXlGVzkLF1WO7Habmh9Ja2
+IAQIfs2BOlQ+IgxbJsqA6RKUFIgwI5iwbHw4xg+UsLkN40BhUVxgGJXdS/Dffu78
+OTlvnud5n/c576mgDQqVn3P60SZNxnc7/IbnWAVUXNWVIqzIlyDGUiQPrl3QxkOX
+25wn8IgRQQEKcA5jWBboeQwCTM+xOEVaKANDU4AEmIGggYXgUAtD4oQFoAxL4TjD
+8BAyNEZjBp4hUQbRIhbBboVOh1OwuyVZyKI8hkOCR3kOsAxg9Cxu4fQYqec5C9Ab
+AMQxlscMEjFXdMkMyRzLuKBOEKWa9DCv2fsP/P/su3BNDkBI0oC10BCTejE8z9Eo
+IDiOJGhUDwAtA13QaWfyoYR25ZbkQyuDlGsRqVgkcFDOVR5kHcDaRKtuHaUTnVZd
+YZ6k4HCKbpETbRIg1+12uIyygLvEITP2Q9a8rmVmBTsvpSkxiqDTJYh2xAgkJOcW
+ZHFA0BiOERhJaBFY7BCc0CzICJwkKFQ6ch9YJElSZil4kqZZaQYLCXkKJSDHYwCH
+AAIU5wmGJyQOZPS8RU8TlPQ7OKtnWQqVEiA5DEfk8QrsImKkDJJRxiqPLljtjLvQ
+CZHywCqlwV/hp1JEhcf4Pwjaee+n6chzLb6nsS9WMEAp758i8OXXXlQm64Kfbzuf
+HaDxZvq6H2Xt/ejt2xmub3XxJix+FGse872x3I4ZlMVHwu6Yc2bIlJiZ+TjlMrO4
+UPvPGbDandmxKdW3U3O/PGTwg3717q4IIqq+7ZP5Hn3SZbN4oDLo7JPeau3p4MD7
+WYuqhkhqSdvXlX5p5U9aveeHmsaF1dCKN2/Mtz/mrchLp36J39o1sMM7stKwakps
+f9pRuevTAuO+FU/Z4/MrWTbbrS3Vw4uKr5JU4m8nBtt+n+4vNdSkTIKhSMTD79WN
+Hdp105utq0kuHl/KSGq8bG+cKW86dPd42q2R68vJqgUh+2BE69W71X94orozLsV6
+T7YNVQb1fzndNRRS0ZlZqx5t/bzvaHDEW/uekdU/P3glffOzL+zpyg6Hccn0YdKi
+D3s3rvXH+MqH3rCeb+KuXAt7ffT9wW2Jk9erPAkXAxQlY0fLvvYyvrFo05U7ETHR
+F5ZtgXs0oy39OdoUb1kTFbo029uj9rA5359NtoZyx/sHAz1+fduPZR82bb6oPpib
+/tBU1ZmKN6VOjPsv/9rgKwTKtLlo3bELZbPj871/33aee35y+r2puRuJ2MD2Kb8t
+LXUTu/NO528diyoIv5nRmbBRU1i+/52Nvlc/bhNHYp2agWsH4k1kxZP65trZ7rTD
+6onP8qua/wrB6gemVGd6N8SqQujwqCMJtR0Ufq+u2Wod/hc=
+=wQli
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/shymega
+
+==================================================================

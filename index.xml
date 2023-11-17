@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fn new&lt;R: Read&gt;(reader: R) -&gt; Blog;</title>
+    <link>https://blog.shymega.org.uk/</link>
+    <description>Recent content on fn new&lt;R: Read&gt;(reader: R) -&gt; Blog;</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <managingEditor>shymega@shymega.org.uk (Dom Rodriguez (shymega))</managingEditor>
+    <webMaster>shymega@shymega.org.uk (Dom Rodriguez (shymega))</webMaster>
+    <copyright>Copyright © (CC-BY-SA 4.0) Dom Rodriguez 2018-{year}</copyright>
+    <lastBuildDate>Tue, 15 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.shymega.org.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My thoughts on Cosmo Communicator OTA update - the current situation</title>
+      <link>https://blog.shymega.org.uk/posts/thoughts-cosmo-ota/</link>
+      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
+      <author>shymega@shymega.org.uk (Dom Rodriguez (shymega))</author>
+      <guid>https://blog.shymega.org.uk/posts/thoughts-cosmo-ota/</guid>
+      <description>DISCLAIMER: As I have signed an NDA with Planet Computers, this post is of my own views, and NOT those of Planet Computers. They should not be contacted for comment. I am restricted in the information I can release, so please, no emails or DMs asking for information. Just a little blog post to address recent posts I&amp;rsquo;ve seen on FB/Discord/OESF/etc about Cosmo Communicator OTA updates.
+Keywords: First of all, it&amp;rsquo;s necessary to define key terms regarding the Cosmo:</description>
+    </item>
+    
+    <item>
+      <title>My work with Planet Computers, and why: Pt 1</title>
+      <link>https://blog.shymega.org.uk/posts/my-work-with-planet-computers-and-why-pt-1/</link>
+      <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+      <author>shymega@shymega.org.uk (Dom Rodriguez (shymega))</author>
+      <guid>https://blog.shymega.org.uk/posts/my-work-with-planet-computers-and-why-pt-1/</guid>
+      <description>DISCLAIMER: As I have signed an NDA with Planet Computers, this post is of my own views, and NOT those of Planet Computers. They should not be contacted for comment. I am restricted in the information I can release, so please, no emails or DMs asking for information. I thought, in light of the &amp;ldquo;Planet Embedded&amp;rdquo; XR-series that has been launched, it might be a good idea for me to explain my affiliation with the company behind it, the Gemini PDA, Cosmo Communicator, and their latest phone (but sadly not the latest SoC; this is a blessing in a way, more in future posts), Astro Slide 5G Transformer.</description>
+    </item>
+    
+    <item>
+      <title>Experiments in Cloud Gaming: Pt 1</title>
+      <link>https://blog.shymega.org.uk/posts/cloud-gaming-intro-pt-1/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+      <author>shymega@shymega.org.uk (Dom Rodriguez (shymega))</author>
+      <guid>https://blog.shymega.org.uk/posts/cloud-gaming-intro-pt-1/</guid>
+      <description>(Initially posted here on my LinkedIn profile, but I&amp;rsquo;ve decided to move it to my blog, and tidy it up a bit.)
+The idea is to use the cloud to play games (yes, I know - but this is a fun application of what could be used in the workplace professionally - it&amp;rsquo;s the fundamental skillls in cloud tech that are important here), all controlled with AWS Lambda functions, and using Infrastructure as Code (IaC) to deploy the setup.</description>
+    </item>
+    
+    <item>
+      <title>Seizure prediction: v1</title>
+      <link>https://blog.shymega.org.uk/posts/seizure-prediction-v1/</link>
+      <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
+      <author>shymega@shymega.org.uk (Dom Rodriguez (shymega))</author>
+      <guid>https://blog.shymega.org.uk/posts/seizure-prediction-v1/</guid>
+      <description>This post marks the beginning of a research project into seizure prediction.
+I have generalised epilepsy, after two tonic-clonic fits I experienced in December 2017. They were both preceded by an aura, which I ignored, and continued on my commute. Ultimately, I ended up collapsing, having a seizure, and being taken to hospital.
+I still have seizures, but these are mostly focal/absences/myoclonic. I&amp;rsquo;m worried when I leave the house on my own, and I find it difficult.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://blog.shymega.org.uk/about/</link>
+      <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
+      <author>shymega@shymega.org.uk (Dom Rodriguez (shymega))</author>
+      <guid>https://blog.shymega.org.uk/about/</guid>
+      <description>Hi, I&amp;rsquo;m Dom. I&amp;rsquo;m a 20-something hobbyist programmer, advocate of open source/free software, and interested in electronics.
+In terms of software, you can see my Github profile and my projects that I work on.
+I do have a habit of starting projects, and then ending up with no time/motivation to work on it &amp;ndash; rest assured,that does not necessarily mean I&amp;rsquo;ve given up on them.
+I&amp;rsquo;m also a hobbyist photographer, and enjoy taking landscape &amp;amp; candid photographs.</description>
+    </item>
+    
+    <item>
+      <title>Hello World!</title>
+      <link>https://blog.shymega.org.uk/posts/hello-world/</link>
+      <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
+      <author>shymega@shymega.org.uk (Dom Rodriguez (shymega))</author>
+      <guid>https://blog.shymega.org.uk/posts/hello-world/</guid>
+      <description>Welcome to my blog.
+I haven&amp;rsquo;t really gotten into blogging, but I&amp;rsquo;d like to share some stuff about my projects that I do in my spare time :)</description>
+    </item>
+    
+    <item>
+      <title>Sponsorship</title>
+      <link>https://blog.shymega.org.uk/sponsorship/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>shymega@shymega.org.uk (Dom Rodriguez (shymega))</author>
+      <guid>https://blog.shymega.org.uk/sponsorship/</guid>
+      <description>TODO.</description>
+    </item>
+    
+  </channel>
+</rss>
