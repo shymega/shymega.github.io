@@ -1,13 +1,13 @@
 baseurl = "https://blog.shymega.org.uk/"
 languageCode = "en-gb"
-title = "fn blog<R: Read>(reader: R);"
+title = "fn new<R: Read>(reader: R) -> Blog;"
 theme = "temple"
 copyright = "Copyright © (CC-BY-SA 4.0) Dom Rodriguez 2018-{year}"
 
 [params]
   # Enables syntax highlighting
   highlight = true 
-  hjslangs = ["go", "elixir", "clojure"]
+  hjslangs = ["go", "elixir", "clojure", "rust", "embedded"]
   topmenu = "categories"
 
 # Builds a list page for each category given
