@@ -6,7 +6,12 @@ date: "2023-03-07"
 ## DISCLAIMER: As I have signed an NDA with Planet Computers, this post is of my own views, and NOT those of Planet Computers. They should not be contacted for comment.
 ## I am restricted in the information I can release, so please, no emails or DMs asking for information.
 
-I thought, in light of the "Planet Embedded" XR-series that has been launched,
+I've decided to halt this blog post series, because in retrospect, it was
+inappropriate for me to write the post. It was originally meant to showcase how
+I got involved with Planet. I'm going to keep the below post available, but with
+strike-through formatting.
+
+<del>I thought, in light of the "Planet Embedded" XR-series that has been launched,
 it might be a good idea for me to explain my affiliation with the company
 behind it, the Gemini PDA, Cosmo Communicator, and their latest phone (but
 sadly not the latest SoC; this is a blessing in a way, more in future posts),
@@ -59,4 +64,4 @@ to being cancelled today (7th of March 2023), due to the French strikes.
 
 I will leave the blog post here, as it's a bit cramped on the plane.
 
-Au revoir!
+Au revoir!</del>

@@ -1,11 +1,18 @@
 
 ---
-title: "My thoughts on Cosmo Communicator OTA update - the current situation"
+title: "My thoughts on Cosmo Communicator OTA availability"
 date: "2023-08-15"
 ---
 
 ## DISCLAIMER: As I have signed an NDA with Planet Computers, this post is of my own views, and NOT those of Planet Computers. They should not be contacted for comment.
 ## I am restricted in the information I can release, so please, no emails or DMs asking for information.
+
+# UPDATE:
+
+I've found a copy of `UpdatePackage.zip`. which I've published on GitHub. More
+soon.
+
+# Synposis
 
 Just a little blog post to address recent posts I've seen on
 FB/Discord/OESF/etc about Cosmo Communicator OTA updates.
@@ -74,13 +81,10 @@ unfortunately.
 
 ### Side note: More OTA thoughts:
 
-I know that Planet did write their own OTA updater for Astro. However, I
-wouldn't say I'm terribly fond of it. The ODM's FOTA updater is still active -
-remember the posts about 'deejay-dota'? It's actually the updater. I have it on
-my phone, but not enabled as software.
+I know that Planet did write their own OTA updater for Astro. 
 
-I can't disclose much about it. I don't think it's sinister though, just badly
-written, and documented.
+The ODM's FOTA updater is still active - remember the posts about 'deejay-dota'?
+It's actually the updater. I have it on my phone, but not enabled as software.
 
 I am currently working on a replacement AIO OTA platform for Planet. I call it
 '[planet_ota][]', and it uses cloud tooling to scale the server, serve updates
@@ -92,9 +96,6 @@ but without straining the current server for OTA.
 It's also privacy-respecting. Instead of sending one's IMEI, you can subscribe
 to an 'update channel', such as 'beta', where you can try out the latest
 updates without sending personal data.
-
-I'm trying to restart communications with developers at Planet, but haven't
-heard anything yet.
 
 ## What about rooting?
 
