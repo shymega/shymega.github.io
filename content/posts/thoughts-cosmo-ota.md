@@ -118,7 +118,7 @@ It's best to hang tight.
 
 [ninji_1]: https://wuffs.org/blog/pulling-apart-the-cosmos-systemfota-updater
 [ninji_2]: https://wuffs.org/blog/digitime-tech-fota-backdoors
-[planet_ota]: https://github.com/shymega/planet_ota.git
-[scripts]: https://github.com/PC-LineageOS-Ports/magisk-boot-patch-ci-tool
-[v23_rooted]: https://github.com/shymega/cosmo-v23-rooted-android
+[planet_ota]: https://github.com/planet-community-org/planet_ota.git
+[scripts]: https://github.com/planet-community-org/magisk-boot-patch-ci-tool.git
+[v23_rooted]: https://github.com/planet-community-org/cosmo-v23-rooted-android.git
 [rooted_cosmo_v25]: https://support.planetcom.co.uk/index.php/Rooted_Android_For_Cosmo
