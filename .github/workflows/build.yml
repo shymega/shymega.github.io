@@ -1,12 +1,23 @@
 name: Blog website builder
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
+  push:
+    branches:
+      - staging
+      - live
+    paths:
+      - content/**
+      - themes/**
+      - config.toml
 
 jobs:
-  build:
+  build-and-deploy:
+    name: Build & deploy site to GitHub Pages.
+    permissions:
+      actions: read
+      contents: write
+      pages: write
     concurrency: blog-build-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
