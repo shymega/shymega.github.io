@@ -14,6 +14,9 @@ on:
 jobs:
   build-and-deploy:
     name: Build & deploy site to GitHub Pages.
+    env:
+      IS_STAGING: ${{ github.repository == 'shymega/blog-staging.shymega.org.uk'}}
+      IS_PROD:  ${{ github.repository == 'shymega/blog-live.shymega.org.uk' }}
     permissions:
       actions: read
       contents: write
@@ -29,6 +32,7 @@ jobs:
       with:
         image: ext-alpine
         env: production
+        command: -b ${{ env.IS_STAGING == true && 'https://blog-staging.shymega.org.uk' || env.IS_PROD == true && 'https://blog.shymega.org.uk' }}
     - name: Create supporting file (.nojekyll)
       run: sudo touch ./public/.nojekyll
     - name: Deploy to GitHub
