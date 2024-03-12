@@ -32,7 +32,7 @@ jobs:
       with:
         image: ext-alpine
         env: production
-        command: -b ${{ env.IS_STAGING == true && 'https://blog-staging.shymega.org.uk' || env.IS_PROD == true && 'https://blog.shymega.org.uk' }}
+        command: -b ${{ env.IS_STAGING && 'https://blog-staging.shymega.org.uk' || env.IS_PROD && 'https://blog.shymega.org.uk' }}
     - name: Create supporting file (.nojekyll)
       run: sudo touch ./public/.nojekyll
     - name: Deploy to GitHub
